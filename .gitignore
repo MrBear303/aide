@@ -1,8 +1,55 @@
+# Program
+aide
+
 # Prerequisites
 *.d
 
 # config files
 config.log
+autom4te.cache
+config.cache
+config.h
+config.intl
+config.log
+config.status
+libtool
+POTFILES
+*-POTFILES
+Makefile
+stamp-h1
+aide.spec
+doc/aide.conf
+
+*~
+.#*
+*#
+
+src/.dirstamp
+*.flt
+*.gmo
+*.info
+*.la
+*.lo
+*.o
+*.pyc
+*.tmp
+
+.deps
+.libs
+
+TAGS
+TAGS.sub
+
+.local.vimrc
+.lvimrc
+
+.gdbinit
+.gdb_history
+
+# ignore core files, but not java/net/protocol/core/
+core
+
+lost+found
 
 # Object files
 *.o
@@ -45,11 +92,3 @@ config.log
 *.idb
 *.pdb
 
-# Kernel Module Compile Results
-*.mod*
-*.cmd
-.tmp_versions/
-modules.order
-Module.symvers
-Mkfile.old
-dkms.conf

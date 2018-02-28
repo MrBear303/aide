@@ -1,3 +1,6 @@
+# Program
+aide
+
 # Prerequisites
 *.d
 
@@ -21,6 +24,7 @@ aide.spec
 .#*
 *#
 
+./src/.dirstamp
 *.flt
 *.gmo
 *.info

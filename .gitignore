@@ -24,7 +24,7 @@ doc/aide.conf
 .#*
 *#
 
-./src/.dirstamp
+src/.dirstamp
 *.flt
 *.gmo
 *.info

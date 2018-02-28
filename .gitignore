@@ -1,6 +1,9 @@
 # Prerequisites
 *.d
 
+# config files
+config.log
+
 # Object files
 *.o
 *.ko
